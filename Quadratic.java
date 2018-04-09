@@ -10,10 +10,10 @@ public class Quadratic {
         double equation = x*x +4.0*y;
         double sqrt= Math.sqrt(equation);
         double firstroot= (-x+sqrt)/2.0;
-        double firstroot2= (-x-sqrt)/2.0;
+        double secondroot= (-x-sqrt)/2.0;
         
         System.out.println(firstroot);
-        System.out.println(firstroot2);
+        System.out.println(secondroot);
 
 
   
